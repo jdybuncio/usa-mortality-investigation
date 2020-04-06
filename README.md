@@ -35,10 +35,26 @@ As of April 6, 2020, the United States has 41 states with Statewide orders to st
     -   Finalize Powerpoint Presentation    
 
 
+
 ## Data Sources
 Using data from the CDC and The Covid Tracking Project, this repository creates data pipelines for overall U.S. mortality and investigates relationships with it and COVID and Influenza mortality.
 
 
+*   CDC Influenza&Pneumonia Sources:
+    -   [Data Source](https://gis.cdc.gov/grasp/fluview/mortality.html)
+    -   [Methods](https://www.cdc.gov/flu/weekly/overview.htm)
+    -   [Home Page](https://www.cdc.gov/flu/weekly/index.htm)
 
+*   COVID-19 Sources:
+    -   [Data Source: COVID-19 Tracking Project](https://covidtracking.com/data/us-daily)
+    -   [Data Source: CDC COVID-19 Death Data](https://www.cdc.gov/nchs/nvss/vsrr/COVID19/index.htm)
+    -   [CDC Home Page](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covidview.html)
+
+*   Cause of Death Sources:
+    -   [Data Source: CDC 2017 Cause of US Deaths](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm)
+
+*   Supporting Sources
+    -   [Issues with undercounting/misreporting](https://www.ibtimes.com/coronavirus-usa-death-toll-nears-10000-experts-say-us-undercounting-2953054)
+    -   [Trump Tweet about Flu](https://twitter.com/realdonaldtrump/status/1237027356314869761)
 
 
