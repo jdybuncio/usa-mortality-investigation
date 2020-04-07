@@ -27,6 +27,7 @@ As of April 6, 2020, the United States has 41 states with Statewide orders to st
 *   Wednesday
     -   Define Hypthesis Tests
     -   Work on Visualizatons
+    -   Build out intro on Causes of Death vs. Trump Tweet
 *   Thursday
     -   Continue finalizing EDA
     -   Start Powerpoint Presentation
@@ -34,6 +35,18 @@ As of April 6, 2020, the United States has 41 states with Statewide orders to st
     -   Finalize GitHub Repo
     -   Finalize Powerpoint Presentation    
 
+*   Slide Deck - Slide 1:
+    -  Stay-at-home order Map
+    -  Growing Corona Cases
+    -  How about overall mortality? Visual
+*   Slide Deck - Slide 2:
+    -  Overall Mortality different in behavior than prior years - natiowide & state levels?
+*   Slide Deck - Slide 3:
+    -  Any relationship between COVID-19 cases and overall mortality observed?
+*   Slide Deck - Slide 4:
+    -  Trump Tweet
+    -  Interesting Flu related data relative to overall mortality
+    -  COVID projections relative to overall Deaths with and without social distancing measures?x
 
 
 ## Data Sources
@@ -52,9 +65,8 @@ Using data from the CDC and The Covid Tracking Project, this repository creates 
 
 *   Cause of Death Sources:
     -   [Data Source: CDC 2017 Cause of US Deaths](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm)
-
+    -   [Causes of Death in 2017 by State](//www.cdc.gov/nchs/data/dvs/LCWK9_2015.pdf)
 *   Supporting Sources
     -   [Issues with undercounting/misreporting](https://www.ibtimes.com/coronavirus-usa-death-toll-nears-10000-experts-say-us-undercounting-2953054)
     -   [Trump Tweet about Flu](https://twitter.com/realdonaldtrump/status/1237027356314869761)
-
 
