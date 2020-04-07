@@ -10,12 +10,10 @@ As of April 6, 2020, the United States has 41 states with Statewide orders to st
 
 
 ## TL/DR
-<ol>
-<li>Look into overall Mortality in the context of a pandemic. Adds something to compare daily numbers and reports to since we are not used to seeing deaths reported daily</li>
-<li>Adds insight into potential ramifications of statewide shutdowns and corresponding changes in behavior<li>
-<li>Provides color into issues with reporting on deaths and COVID-19 (& pneumonia)  which helps to explain social discourse and confusion<li>
-<li>Looks into prior Flu Seasons to put COVID-19 projections against them - both the projections with and without social distancing<li> 
-</ol>
+1. Look into overall Mortality in the context of a pandemic. Adds something to compare daily numbers and reports to since we are not used to seeing deaths reported daily
+2. Adds insight into potential ramifications of statewide shutdowns and corresponding changes in behavior
+3. Provides color into issues with reporting on deaths and COVID-19 (& pneumonia)  which helps to explain social discourse and confusion
+4. Looks into prior Flu Seasons to put COVID-19 projections against them - both the projections with and without social distancing
 
 
 ##  Working Plan
