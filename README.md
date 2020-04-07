@@ -1,6 +1,5 @@
-# United States Mortality Investigation
-As of April 6, 2020, the United States has 41 states with Statewide orders to stay at home  [source](https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html). This was done in the context of the growing threat of COVID-19 and related death estimates in the hundreds-of-thousands [source](https://www.nytimes.com/aponline/2020/03/29/us/politics/ap-us-virus-outbreak-washington.html?searchResultPosition=3). Daily reports on COVID-19 related cases and deaths have accompanied this new-normal and increased time at home for many Americans.  While it seems almost implicit in the mood of our national discourse, little has been said about overall mortality in the U.S. in this time period.  The following work seeks to add perspective to both the daily COVID-19 reports and provide some color into how the worldwide pandemic and drastic changes to daily lives may have impacted overall United States mortality at both the national and state levels and the confusion and divisiveness fueled by the quality of data, or lack thereof.   
-
+## Overall United States Mortality in the context of a Worldwide Pandemic
+As of April 6, 2020, the United States has 41 states with Statewide orders to stay at home  [source](https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html). This was done in the context of the growing threat of the worldwide pandemic caused by COVID-19 and death estimates due to the virus in the hundreds-of-thousands in the U.S. alone [source](https://www.nytimes.com/aponline/2020/03/29/us/politics/ap-us-virus-outbreak-washington.html?searchResultPosition=3). Accompanying this new-normal has been a routine of daily reports of new COVID-19 cases and deaths [source](https://www.nytimes.com/news-event/coronavirus?action=click&module=Spotlight&pgtype=Homepage). Despite so much discourse on death, little has been said about overall mortality in the U.S. in this time period.  The following work seeks to add perspective to the daily COVID-19 reports and provide insight into how drastic changes to our daily lives may be impacting overall United States mortality at both the national and state levels.  This work's findings also illuminate how the current quality of up-to-date data allows for COVID-19 to be a politicized topic, rife with confusion and debate.
 
 ## Goals
 <ol>
@@ -11,12 +10,10 @@ As of April 6, 2020, the United States has 41 states with Statewide orders to st
 
 
 ## TL/DR
-<ol>
-<li>Look into overall Mortality in the context of a pandemic. Adds something to compare daily numbers and reports to since we are not used to seeing deaths reported daily</li>
-<li>Adds insight into potential ramifications of statewide shutdowns and corresponding changes in behavior<li>
-<li>Provides color into issues with reporting on deaths and COVID-19 (& pneumonia)  which helps to explain social discourse and confusion<li>
-<li>Looks into prior Flu Seasons to put COVID-19 projections against them - both the projections with and without social distancing<li> 
-</ol>
+1. Look into overall Mortality in the context of a pandemic. Adds something to compare daily numbers and reports to since we are not used to seeing deaths reported daily
+2. Adds insight into potential ramifications of statewide shutdowns and corresponding changes in behavior
+3. Provides color into issues with reporting on deaths and COVID-19 (& pneumonia)  which helps to explain social discourse and confusion
+4. Looks into prior Flu Seasons to put COVID-19 projections against them - both the projections with and without social distancing
 
 
 ##  Working Plan
