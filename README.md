@@ -1,70 +1,55 @@
-## Overall United States Mortality in the context of a Worldwide Pandemic
-As of April 6, 2020, the United States has 41 states with Statewide orders to stay at home  [source](https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html). This was done in the context of the growing threat of the worldwide pandemic caused by COVID-19 and death estimates due to the virus in the hundreds-of-thousands in the U.S. alone [source](https://www.nytimes.com/aponline/2020/03/29/us/politics/ap-us-virus-outbreak-washington.html?searchResultPosition=3). Accompanying this new-normal has been a routine of daily reports of new COVID-19 cases and deaths [source](https://www.nytimes.com/news-event/coronavirus?action=click&module=Spotlight&pgtype=Homepage). Despite so much discourse on death, little has been said about overall mortality in the U.S. in this time period.  The following work seeks to add perspective to the daily COVID-19 reports and provide insight into how drastic changes to our daily lives may be impacting overall United States mortality at both the national and state levels.  This work's findings also illuminate how the current quality of up-to-date data allows for COVID-19 to be a politicized topic, rife with confusion and debate.
+## Using overall United States Mortality to better understand the daily COVID-19 reports
+COVID-19 has changed our day-to-day lives significantly and the fall-out effects will be studied for years to come. As of April 6th, 2020, the United States has 41 out of its 50 states with Statewide orders to stay at home  [source](https://www.nytimes.com/interactive/2020/us/coronavirus-stay-at-home-order.html). Additionally, this virus has changed our daily consumption and understanding of death. Most major news outlets in the United States report on daily deaths attributed to COVID-19 despite not normally reporting on mortality totals.  
+
+The following work seeks to add perspective to the daily COVID-19 death totals by comparing them to overall mortality in the United States.  This work's findings provide insight into understanding death data, its pitfalls, and interesting trends, specifically about Influenza & Pneumonia, which may suggest how to view the current COVID-19 totals.
+
+*by Jaime DyBuncio*
+
+## Table of Contents
+- [Goals](#goals)
+- [Background](#background)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Hypothesis Tests](#hypothesis-tests)
+- [Conclusion](#conclusion)
+- [Data Sources](#data-sources])
+
 
 ## Goals
+This work seeks to answer the following questions:
 <ol>
-<li>Is overall United States mortality showing different behavior relative to prior years?</li>
-<li>Is there any relationship between COVID-19 cases and overall mortality seen in U.S. States?</li>
-<li>How can prior flu-season data frame the current projections of COVID-19's impact relative to overall mortality?</li>
+<li>How do the COVID-19 totals compare to overall United States mortality?</li>
+<li>Is the overall United States death rate showing different behavior relative to prior years?</li>
+<li>Is the Percentage of Deaths due to Influenza and Pneumonia diverging in 2020 vs. prior years?</li>
 </ol>
 
 
-## TL/DR
+## Background
+
+
+
+
+## Exploratory Data Analysis
+
+
+## Hypothesis Tests
+
+
+
+## Conclusion
+
+
 1. Look into overall Mortality in the context of a pandemic. Adds something to compare daily numbers and reports to since we are not used to seeing deaths reported daily
 2. Adds insight into potential ramifications of statewide shutdowns and corresponding changes in behavior
 3. Provides color into issues with reporting on deaths and COVID-19 (& pneumonia)  which helps to explain social discourse and confusion
 4. Looks into prior Flu Seasons to put COVID-19 projections against them - both the projections with and without social distancing
 
 
-##  Working Plan
 
-*   Monday:
-    -   Finalize research question
-    -   Create GitHub Repo
-    -   Add Data Source 1 
-    -   Initial Clean of Data
-*   Tuesday:
-    -   Add Data Source 2
-    -   Initial Clean of Data 2
-    -   Join Data Together
-    -   Initial EDA
-*   Wednesday
-    -   Define Hypthesis Tests
-    -   Work on Visualizatons
-    -   Build out intro on Causes of Death vs. Trump Tweet
-*   Thursday
-    -   Continue finalizing EDA
-    -   Start Powerpoint Presentation
-*   Friday
-    -   Finalize GitHub Repo
-    -   Finalize Powerpoint Presentation    
 
-## Slide Deck
 
-*   Slide Deck - Slide 1:
-    -   Context: Stay-at-home order Map
-    -   Context: Growing Corona Cases and Deaths reported everyday which we aren't used to
-    -   How about overall mortality? Visual
-    -   Looking into overall mortality can give us: Perspective to current #s, Insight into impact of Behavioral Changes, & shine light on confusion in reporting on COVID-19 and Deaths in general
-*   Slide Deck - Slide 2:
-    -   Overall Mortality different in behavior than prior years - natiowide & state levels?
-    -   Reasons of Death in USA in 2017
-    -   Add in reasons why we could be seeing less: More Deaths at Home, Less Cardiac patients at hospital, and Change in Behaviors
-    -   Data Reporting Issues: Call into question data methodology. Why there can be increased lag this year in relation to prior.   
-*   Slide Deck - Slide 3:
-    -   Any relationship between COVID-19 cases and overall mortality observed? 
-    -   We report daily on rise in COVID cases, but similarly, what is change in overall Deaths and would it follow intuition that overall is rising as well (i.e. somewhere like NYC seeing more overal deaths this year?)
-    -   Data Issues: Add in rise in pneumonia and lack of COVID-19 deaths tracked on CDC. Mention sources which speak to underreporting of COVID-19.  
-*   Slide Deck - Slide 4:
-    -   Current COVID-19 death projections has been another major discourse. What are projections with and without social distancing in relation to overall mortality?
-    -   Trump Tweet
-    -   Interesting Flu related data relative to overall mortality. Difference in Influenza, Pneumonia, & COVID-19
-*   Slide Deck - Slide 5:
-    -   Summary
-    -   Perspective: Overall Mortality in these times where we're seeing one type of death reported every day
-    -   Impact of Change in Behaviors: connected to above topic
-    -   Data Issues: Confusion and various discourses are seen in unreliable data and changing behaviors
-    -   COVID vs. Prior Flu Seasons 
+
+
+
 
 ## Data Sources
 Using data from the CDC and The Covid Tracking Project, this repository creates data pipelines for overall U.S. mortality and investigates relationships with it and COVID and Influenza mortality.
@@ -86,15 +71,6 @@ Using data from the CDC and The Covid Tracking Project, this repository creates 
 
 *   Supporting Sources
     -   [Where have all the heart attacks gone?](https://www.nytimes.com/2020/04/06/well/live/coronavirus-doctors-hospitals-emergency-care-heart-attack-stroke.html)
-    -   [Increases of deaths at home in NYC - could explain lower mortality and also definitely explaines lower COVID-19 counts](https://gothamist.com/news/surge-number-new-yorkers-dying-home-officials-suspect-undercount-covid-19-related-deaths)
+    -   [Increases of deaths at home in NYC](https://gothamist.com/news/surge-number-new-yorkers-dying-home-officials-suspect-undercount-covid-19-related-deaths)
     -   [Issues with undercounting/misreporting](https://www.ibtimes.com/coronavirus-usa-death-toll-nears-10000-experts-say-us-undercounting-2953054)
     -   [Issues with undercounting & CDCs lag](https://www.cnn.com/2020/04/06/health/us-coronavirus-death-count-cdc-explainer/index.html)
-    -   [Trump Tweet about Flu](https://twitter.com/realdonaldtrump/status/1237027356314869761)
-    -   [COVID-19 mutating less so than flu](https://www.msn.com/en-gb/health/other/coronavirus-seems-to-mutate-much-slower-than-seasonal-flu/ar-BB12e9ci?li=AAJt1k3)
- 
-## Useful quotes
-
-* "But another 200 city residents are now dying at home each day, compared to 20 to 25 such deaths before the pandemic, said Aja Worthy-Davis, a spokeswoman for the medical examiner’s office. And an untold number of them are unconfirmed"
-* "The FDNY says it responded to 2,192 cases of deaths at home between March 20th and April 5th, or about 130 a day, an almost 400 percent increase from the same time period last year. (In 2019, there were just 453 cardiac arrest calls where a patient died, according to the FDNY.) "
-* “a subset of the whole testing fiasco.” 
-* "Meanwhile, city and hospital morgues and refrigerated trucks used to supplement them are nearing capacity, and first responders continue to answer unprecedented numbers of 911 calls every day. They’re averaging more than 6,400 a day over the last 11 days, compared to 4,500 before the pandemic, according to union officials. "
