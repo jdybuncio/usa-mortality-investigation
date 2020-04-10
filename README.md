@@ -69,38 +69,50 @@ Therefore, I seek to answer two core questions via Hypothesis Testing in the nex
 
 ## Hypothesis Tests
 
+
+The two Hypothesis Tests I ran to answer the two questions stated above are:
+- One-Tailed Mann-Whitney Signed Rank Test to compare to see if 2020's Death Rate is lower than prior year through Week 12.
+- Two-Tailed Mann-Whitney Signed Rank Test to compare to see if 2020's % of Deaths due to Influenza & Pneumonia is different than prior years through Week 13
+
+The box plots below show the Interquartile ranges for the two respective sample statistics across the year intervals I am comparing against 2020: Avg Weekly Death Rate (per 100k population) & % of Deaths due to Influenza & Pneumonia.
+
+The two Null Hypothesis Tests I set out to perform are:
+1. Weekly Death Rate differences 
+    - Null Hypothesis: P(Die in a wk in 2019 > Die in a wk in 2020) = 0.50
+    - Alternative Hypothesis: P(Die in a wk in 2019 > Die in a wk in 2020) ≠ 0.50
+2. % of Deaths due to Influenza & Pneumonia
+    - Null Hypothesis: P(Death due to Influenza & Pneumonia in 2020 > Death due to I&P in 2019) = 0.50
+    - Alternative Hypothesis: P(Death due to Influenza & Pneumonia in 2020 > Death due to I&P in 2019)  ≠ 0.50
+
+
 <p align="center">
   <img src="images/National_thru_wk_12.png" width = 800>
 </p>
 
 
-One-Tailed Mann-Whitney Signed Rank Test to compare across yrs
-Null Hypothesis: P(Die in a wk in 2019 > Die in a wk in 2020) = 0.50
-Alternative Hypothesis: P(Die in a wk in 2019 > Die in a wk in 2020) ≠ 0.50
-
 <p align="center">
   <img src="images/New York_thru_wk_13.png" width = 800>
 </p>
 
-Two-Tailed Mann-Whitney Signed Rank Test to compare across yrs
-Null Hypothesis
-P(Death due to Influenza & Pneumonia in 2020 > Death due to I&P in 2019) = 0.50
-Alternative Hypothesis
-P(Death due to Influenza & Pneumonia in 2020 > Death due to I&P in 2019)  ≠ 0.50
 
+Through Weeks 1-12 (through Mar 21), 2014-19 and 2019 had higher death rates than 2020 in the U.S. (𝞪 = 0.01), but this does not hold in the 12 States w/ the highest amount of COVID-19 deaths.
 
-
-
+Through Weeks 1-13 (through Mar 28), I failed ot reject the null hypothesis that there is any difference in the % of Deaths due to Influenza & Pneumonia at an alpha of 0.10 for all the top 12 States with the highest amount of COVID-19 deaths aside from Florida (NY is close). But, the totals in the past two weeks are peaking and are highlighted by the two outliers seen in New York's graph.
 
 
 
 ## Conclusion
 
+[
+Issues with daily mortality data explain common headlines popping up.  Daily Death #s & Cause are regularly report on. 
+- CDC goes back and publishes Deaths due to Influenza in 2 year lookback.
+- CDC only recently added COVID death code.
+- CDC marks data as 100% complete but it can still change.
+- Issues between discerning b/w Pneumonia, Influenza, & COVID-19
+- Russia is classifying all Pneumonia deaths as COVID 
 
-1. Look into overall Mortality in the context of a pandemic. Adds something to compare daily numbers and reports to since we are not used to seeing deaths reported daily
-2. Adds insight into potential ramifications of statewide shutdowns and corresponding changes in behavior
-3. Provides color into issues with reporting on deaths and COVID-19 (& pneumonia)  which helps to explain social discourse and confusion
-4. Looks into prior Flu Seasons to put COVID-19 projections against them - both the projections with and without social distancing
+Will re-run analysis to keep watchful eye on how 2020’s overall mortality & pneumonia deaths continue to evolve relative to prior years when thinking about COVID-19 totals.
+
 
 
 
