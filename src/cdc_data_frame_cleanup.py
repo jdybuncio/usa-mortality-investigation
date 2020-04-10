@@ -108,7 +108,7 @@ def clean_and_sort(new_df, state = 'National'):
         
     return new_df
 
-def cleaning_cdc_df(df, state = 'National'):
+def cleaning_cdc_data(df, state = 'National'):
     
     new_df = clean_csv(df)
     new_df = clean_columns(new_df, state)
@@ -121,5 +121,5 @@ def cleaning_cdc_df(df, state = 'National'):
 
 # df_national = pd.read_csv("../data/National_Custom_Data.csv")
 # df_states = pd.read_csv("../data/State_Custom_Data.csv")
-# print(cleaning_cdc_df(df_national).head())
-# print(cleaning_cdc_df(df_states, 'states').head())
+# print(cleaning_cdc_data(df_national).head())
+# print(cleaning_cdc_data(df_states, 'states').head())
