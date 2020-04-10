@@ -3,6 +3,8 @@ COVID-19 has changed our day-to-day lives significantly and the fall-out effects
 
 The following work seeks to add perspective to the daily COVID-19 death totals by comparing them to overall mortality in the United States.  This work's findings provide insight into understanding death data, its pitfalls, and interesting trends, specifically about Influenza & Pneumonia, which may suggest how to view the current COVID-19 totals.
 
+[Accompanying Presentation](https://docs.google.com/presentation/d/1xqk53rEZo9x1Xlf2_WRjyKPh7DWyq3CcHR3l3D6QIRM/edit?usp=sharing)
+
 *by Jaime DyBuncio*
 
 ## Table of Contents
@@ -25,13 +27,36 @@ This work seeks to answer the following questions:
 
 ## Background
 
+<p align="center">
+  <img src="images/Weekly_Avg_DR.png" width = 800>
+</p>
+
+
+
 
 
 
 ## Exploratory Data Analysis
 
+<p align="center">
+  <img src="images/Annual_DR_Trend.png" width = 800>
+</p>
+
 
 ## Hypothesis Tests
+
+<p align="center">
+  <img src="images/National_thru_wk_12.png" width = 800>
+</p>
+
+
+<p align="center">
+  <img src="images/New York_thru_wk_13.png" width = 800>
+</p>
+
+
+
+
 
 
 
@@ -55,7 +80,7 @@ This work seeks to answer the following questions:
 Using data from the CDC and The Covid Tracking Project, this repository creates data pipelines for overall U.S. mortality and investigates relationships with it and COVID and Influenza mortality.
 
 
-*   CDC Influenza&Pneumonia Sources:
+*   CDC Influenza & Pneumonia Sources:
     -   [Data Source](https://gis.cdc.gov/grasp/fluview/mortality.html)
     -   [Methods](https://www.cdc.gov/flu/weekly/overview.htm)
     -   [Home Page](https://www.cdc.gov/flu/weekly/index.htm)
@@ -65,9 +90,8 @@ Using data from the CDC and The Covid Tracking Project, this repository creates 
     -   [Data Source: CDC COVID-19 Death Data](https://www.cdc.gov/nchs/nvss/vsrr/COVID19/index.htm)
     -   [CDC Home Page](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covidview.html)
 
-*   Cause of Death Sources:
-    -   [Data Source: CDC 2017 Cause of US Deaths](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm)
-    -   [Causes of Death in 2017 by State](//www.cdc.gov/nchs/data/dvs/LCWK9_2015.pdf)
+*   Census Population Sources:
+    -   [Census Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-total.html)
 
 *   Supporting Sources
     -   [Where have all the heart attacks gone?](https://www.nytimes.com/2020/04/06/well/live/coronavirus-doctors-hospitals-emergency-care-heart-attack-stroke.html)
