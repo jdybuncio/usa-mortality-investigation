@@ -22,8 +22,8 @@ df_covid_natl = cleaning_covid_data(national_api_url)
 df_covid_natl.to_csv('data/national_covid_pandas_df.csv')
 
 #3 CDC Data
-national_cdc_data = pd.read_csv("data/National_Custom_Data.csv")
-state_cdc_data = pd.read_csv("data/State_Custom_Data.csv")
+national_cdc_data = pd.read_csv("data/National_Custom_Data_apr_10.csv")
+state_cdc_data = pd.read_csv("data/State_Custom_Data_apr_10.csv")
 
 
 df_national = cleaning_cdc_data(national_cdc_data)

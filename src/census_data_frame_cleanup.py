@@ -34,6 +34,7 @@ def cleaning_census_data(df, ending_year):
 
     # Changed United States Values to National to match with CDC dataframes
     new_df = new_df.replace('United States', 'National')
+    new_df['Calendar_year'] = new_df['Calendar_year'].astype(int)
 
     return new_df
 
