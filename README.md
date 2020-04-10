@@ -51,6 +51,21 @@ Despite this, a couple things stick out when looking deeper into U.S. mortality 
   <img src="images/Annual_DR_Trend.png" width = 800>
 </p>
 
+The lines above show the Weekly Death Rate (Total Deaths in the U.S. per 100k in population) by week of the year and across years for the deaths occurring in the United States.  There is clear seasonality in our country's death rate, with it peaking at the beginning and the end of each year.
+
+Something sticks out though when observing the Red-Line which represents 2020's data through March 21st. This only uses data from the CDC marked as 100% Complete.  The Red-Line seems to be following a much lower trajectory than that observed in prior years which would be a surprise.  This would suggest that the U.S. Death Rate this year is actually lower than prior years despite the global pandemic.  It should not be left out though that the deaths due to COVID-19 grew dramatically in the past 3 weeks, which is not included in this dataset, but several States were already in lock-down in the last 2-3 data points shown for 2020.  
+
+Not shown on this graph, but also in the CDC data, suggests that despite the appearingly lower Death Rate, the percent of deaths due to Pneumonia and Influenza started to spike in the U.S. in Weeks 12 and 13.  
+
+Therefore, I seek to answer two core questions via Hypothesis Testing in the next section:
+
+1. Is U.S. Weekly Death Rate (Weely Deaths per 100k)  in 2020 lower compared to that in 2019 and in 2014-19? Data allows me to compare through Week 12 (March 21st).
+
+
+2. Since I also have Flu & Pneumonia data, is the % of  Deaths due to Influenza & Pneumonia in 2020 higher than that seen in 2019 and 2014-19? Data allows me to compare through Week 13 (March 28th) for certain states.
+
+
+
 
 ## Hypothesis Tests
 
@@ -59,9 +74,19 @@ Despite this, a couple things stick out when looking deeper into U.S. mortality 
 </p>
 
 
+One-Tailed Mann-Whitney Signed Rank Test to compare across yrs
+Null Hypothesis: P(Die in a wk in 2019 > Die in a wk in 2020) = 0.50
+Alternative Hypothesis: P(Die in a wk in 2019 > Die in a wk in 2020) ≠ 0.50
+
 <p align="center">
   <img src="images/New York_thru_wk_13.png" width = 800>
 </p>
+
+Two-Tailed Mann-Whitney Signed Rank Test to compare across yrs
+Null Hypothesis
+P(Death due to Influenza & Pneumonia in 2020 > Death due to I&P in 2019) = 0.50
+Alternative Hypothesis
+P(Death due to Influenza & Pneumonia in 2020 > Death due to I&P in 2019)  ≠ 0.50
 
 
 
