@@ -119,7 +119,7 @@ def cleaning_cdc_df(df, state = 'National'):
 
     return new_df
 
-df_national = pd.read_csv("../data/National_Custom_Data.csv")
-df_states = pd.read_csv("../data/State_Custom_Data.csv")
-print(cleaning_cdc_df(df_national).head())
-print(cleaning_cdc_df(df_states, 'states').head())
+# df_national = pd.read_csv("../data/National_Custom_Data.csv")
+# df_states = pd.read_csv("../data/State_Custom_Data.csv")
+# print(cleaning_cdc_df(df_national).head())
+# print(cleaning_cdc_df(df_states, 'states').head())
