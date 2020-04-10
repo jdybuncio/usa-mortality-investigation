@@ -31,9 +31,18 @@ This work seeks to answer the following questions:
   <img src="images/Weekly_Avg_DR.png" width = 800>
 </p>
 
+As the graph shows, the United States averaged over 54,000 deaths per week in 2019. This is useful to use as a barometer to the weekly COVID-19 Death totals we have been ingesting on a day-to-day basis. For example, using 2019's deaths per week as a baseline and comparing it to the most recent COVID-19 data:
 
+* Last week (Mar 29 - Apr 4):
+    - The U.S. had 6,300+ deaths classified as COVID-19. This represents ~12%+ of Weekly Avg Deaths in 2019. 
+    - New York had 2,800+ COVID-19 deaths last week. NY averaged just over 3k deaths per week last yr.
+* This week (Apr 5 - Apr 11):
+    - The U.S. is trending towards 11,000 deaths due to COVID-19.  This represents ~20%+ of Weekly Avg Deaths in 2019. 
+    - New York is trending towards 4,700 COVID-19 deaths this week.
 
+While I would like to look deeper into if the rise in COVID-19 deaths are closely associated with a rise in overall U.S. mortality, the majority of COVID-19 deaths have occurred in the last two weeks and U.S. mortality data is only reliable from 3 weeks ago.  The mortality data I am using comes from the CDC and utilizes a mortality surveillance system led by The National Center for Health Statistics (NCHS) who receives reporting for all deaths in the U.S. from state vital statistics offices. The data comes from death certificates and the deceased are attributed to their state of residence.  Due to the hand-offs in reporting, there is usually a 2-3 week lag, i.e. the most recent data available data is from 2 weeks ago, but applying the CDC's marker of "% Complete", the most recent data which is 100% complete is from 3 weeks ago.
 
+Despite this, a couple things stick out when looking deeper into U.S. mortality data which will be covered in the next section.  Also, the data pipelines created as part of this project will expedite one's ability to look further into the relationship of overall U.S. mortality and COVID-19 deaths in the subsequent weeks when the CDCs data updates to cover the period into April, 2020.
 
 
 ## Exploratory Data Analysis
