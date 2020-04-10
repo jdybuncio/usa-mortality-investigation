@@ -123,7 +123,7 @@ Will re-run analysis to keep watchful eye on how 2020’s overall mortality & pn
 
 
 ## Data Sources
-Using data from the CDC and The Covid Tracking Project, this repository creates data pipelines for overall U.S. mortality and investigates relationships with it and COVID and Influenza mortality.
+Using data from the CDC, The Covid Tracking Project, and the U.S. Census, this repository creates data pipelines for overall U.S. mortality and investigates relationships with it and COVID and Influenza mortality.
 
 
 *   CDC Influenza & Pneumonia Sources:
