@@ -14,9 +14,9 @@ Using estimates from the U.S. Census, the estimated U.S. Population in 2019 was 
 
 The closest I could get to daily mortality numbers were reports from the CDC which provide weekly death totals. This dataset is updated every Friday and provides weekly death totals as recently as two weeks ago (more on this later). The CDC aggregates this data by utilizing a surveillance system that receives mortality data from death certificates. Below are some graphs to highlight weekly mortality numbers at both the National and State levels.
 
-<p align="center">
-  <img src="images/Weekly_Avg_DR.png" width = 400> <img src="images/avg_weekly_us_deaths_by_state.png" width = 400> 
-</p>
+
+<img src="images/Weekly_Avg_DR.png" width = 800> <img src="images/avg_weekly_us_deaths_by_state.png" width = 800> 
+
 
 ## Some COVID-19 totals we are familiar with
 
