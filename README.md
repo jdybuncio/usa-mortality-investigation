@@ -1,7 +1,7 @@
 ## Using overall Mortality in the U.S. to better understand the COVID-19 reports
 One thing I have been struck by during the 20202 global pandemic is the daily reporting on both death and sickness. Death occurs everyday but receiving a daily number has added a certain magnitude and uncertainty. In an attempt to digest the COVID-19 death totals and projections, I loaded, cleaned, and merged three datasets in order to investigate mortality in the United States. 
 
-*by Jaime DyBuncio*
+*by J.DyBuncio*
 *4/15/2020*
 
 ## Understanding Death relative to the size of the U.S. Population
@@ -64,7 +64,10 @@ Using data from the CDC, The Covid Tracking Project, and the U.S. Census, this r
 *   Census Population Sources:
     -   [Census Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-total.html)
 
-To run the code:
+## Accessibility to the Code
+To run the code contained in this repo using Git, clone this repository and run the following:
 ```
-python 
+git clone https://github.com/jdybuncio/usa-mortality-investigation.git
+cd usa-mortality-investigation
+python stats_testing_script.py
 ```
