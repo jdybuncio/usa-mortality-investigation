@@ -4,6 +4,14 @@ One thing I have been struck by during the 20202 global pandemic is the daily re
 *by J.DyBuncio*
 *4/15/2020*
 
+## Accessibility to the Code
+To run the code contained in this repo using Git, clone this repository and run the following:
+```
+git clone https://github.com/jdybuncio/usa-mortality-investigation.git
+cd usa-mortality-investigation
+python stats_testing_script.py
+```
+
 ## Understanding Death relative to the size of the U.S. Population
 
 Using estimates from the U.S. Census, the estimated U.S. Population in 2019 was 328 million which was up 1.6 million from 2018. This net change in population comes from:
@@ -64,10 +72,4 @@ Using data from the CDC, The Covid Tracking Project, and the U.S. Census, this r
 *   Census Population Sources:
     -   [Census Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-total.html)
 
-## Accessibility to the Code
-To run the code contained in this repo using Git, clone this repository and run the following:
-```
-git clone https://github.com/jdybuncio/usa-mortality-investigation.git
-cd usa-mortality-investigation
-python stats_testing_script.py
-```
+
