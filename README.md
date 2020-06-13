@@ -1,5 +1,5 @@
 ## Using overall Mortality in the U.S. to better understand the COVID-19 reports
-One thing I have been struck by during the 20202 global pandemic is the daily reporting on both death and sickness. Death occurs everyday but receiving a daily number has added a certain magnitude and uncertainty. In an attempt to digest the COVID-19 death totals and projections, I loaded, cleaned, and merged three datasets in order to investigate mortality in the United States. 
+One thing I have been struck by during the 2020 global pandemic is the daily reporting on both death and sickness. Death occurs everyday but receiving a daily number has added a certain magnitude and uncertainty. In an attempt to digest the COVID-19 death totals and projections, I loaded, cleaned, and merged three datasets in order to investigate mortality in the United States. 
 
 *by J.DyBuncio*
 *4/15/2020*
